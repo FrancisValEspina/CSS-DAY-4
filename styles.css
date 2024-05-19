@@ -1,0 +1,64 @@
+html{
+    font-family: "Merriweather Sans"
+  }
+
+body{
+    background-color: #D5FF54;
+    margin-left: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+.table{
+    display: flex;
+    justify-content: center ;
+}
+
+.home{
+    background-color: #E9F069;
+}
+
+.wkend{
+    background-color: #FFF754;
+}
+
+.prac{
+    background-color: #54FF60;
+}
+
+@media (max-width: 611px){
+    .table{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 612px){
+    .table{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 757px){
+    .table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media (min-width: 1080px) {
+    .table{
+        text-align: center;
+    }
+}
